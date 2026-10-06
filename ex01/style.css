@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+
+    background-color: #1e293b;
+    color: white;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 120px 40px 40px;
+}
+
+.card {
+    position: relative;
+
+    width: 250px;
+    min-height: 150px;
+
+    padding: 25px;
+    background-color: white;
+
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    box-sizing: border-box;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+
+    background-color: #ef4444;
+    color: white;
+
+    padding: 5px 9px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 10;
+
+    background-color: #1e293b;
+    color: white;
+
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 40px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    margin-bottom: 40px;
+}
+
+.rectangle {
+    width: 180px;
+    height: 100px;
+    border: 3px solid black;
+    margin-bottom: 40px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.pill {
+    width: 200px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 35px;
+    margin-bottom: 40px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-bottom: 100px solid black;
+}
